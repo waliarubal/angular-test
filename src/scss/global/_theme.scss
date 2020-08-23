@@ -1,0 +1,105 @@
+.check-box-ds {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size:$font16;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family:$button-font;
+  color:$text-black;
+  @media screen and (max-width: $custom_sm) {
+    font-size:$font14;
+    padding-left: 30px;
+  }
+}
+.check-box-ds input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top:-6px;
+  left: 0;
+  height:36px;
+  width:36px;
+  background-color: #fff;
+  border-radius:50%;
+  border: solid 1px $bg-grey-light;
+  @media screen and (max-width: $custom_sm) {
+    height:24px;
+    width:24px;
+    top:-2px;
+  }
+}
+.check-box-ds input:checked ~ .checkmark {
+  background-color:$bg-blue;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.check-box-ds input:checked ~ .checkmark:after {
+  display: block;
+}
+.check-box-ds .checkmark:after {
+  left:13px;
+  top:7px;
+  width: 8px;
+  height: 16px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  @media screen and (max-width: $custom_sm) {
+    left: 8px;
+    top: 4px;
+    width: 6px;
+    height: 12px;
+  }
+}
+
+.floating-label { 
+  position:relative; 
+  margin-bottom:20px; 
+}
+.floating-input , .floating-select {
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+
+.floating-input:focus , .floating-select:focus {
+     outline:none;
+     border-bottom:1px solid $bg-blue; 
+}
+
+.floating-label label {
+  position:absolute;
+  pointer-events:none;
+  left:15px;
+  top:15px;
+  @include transition(all .2s ease);
+  font-size:$font16;
+  color:$text-black;
+  display: block;
+  font-family:$button-font;
+  display: block;
+  margin:0;
+  @media screen and (max-width: $custom_sm) {
+    font-size:$font14;
+  }
+}
+
+.floating-input:focus ~ label, .floating-input:not(:placeholder-shown) ~ label {
+  top:-6px;
+  font-size:$font14;
+}

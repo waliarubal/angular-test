@@ -1,0 +1,27 @@
+@import "settings/variable";
+
+@font-face {
+  font-family: 'FoundersGrotesk-Bold';
+  src: url('#{$webfonts-path}/FoundersGrotesk-Bold.eot?#iefix') format('embedded-opentype'),  url('#{$webfonts-path}/FoundersGrotesk-Bold.otf')  format('opentype'),
+	     url('#{$webfonts-path}/FoundersGrotesk-Bold.woff') format('woff'), url('#{$webfonts-path}/FoundersGrotesk-Bold.ttf')  format('truetype'), url('#{$webfonts-path}/FoundersGrotesk-Bold.svg#FoundersGrotesk-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Regular';
+  src: url('#{$webfonts-path}/FoundersGrotesk-Regular.eot?#iefix') format('embedded-opentype'),  url('#{$webfonts-path}/FoundersGrotesk-Regular.otf')  format('opentype'),
+	     url('#{$webfonts-path}/FoundersGrotesk-Regular.woff') format('woff'), url('#{$webfonts-path}/FoundersGrotesk-Regular.ttf')  format('truetype'), url('#{$webfonts-path}/FoundersGrotesk-Regular.svg#FoundersGrotesk-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Medium';
+  src: url('#{$webfonts-path}/FoundersGrotesk-Medium.eot?#iefix') format('embedded-opentype'),  url('#{$webfonts-path}/FoundersGrotesk-Medium.otf')  format('opentype'),
+	     url('#{$webfonts-path}/FoundersGrotesk-Medium.woff') format('woff'), url('#{$webfonts-path}/FoundersGrotesk-Medium.ttf')  format('truetype'), url('#{$webfonts-path}/FoundersGrotesk-Medium.svg#FoundersGrotesk-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

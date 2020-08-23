@@ -1,0 +1,102 @@
+@mixin transition($all-transition) {
+-webkit-transition:$all-transition;
+-moz-transition:$all-transition;
+-ms-transition:$all-transition;
+transition:$all-transition;
+}
+
+@mixin scaleX($scale) {
+  -webkit-transform: scaleX($scale);
+  -moz-transform: scaleX($scale);
+  transform: scaleX($scale);
+}
+
+@mixin scale($scale) {
+  -webkit-transform: scale($scale);
+  -moz-transform: scale($scale);
+  transform: scale($scale);
+}
+
+@mixin translateY($value) {
+  -webkit-transform: translateY($value);
+  -moz-transform: translateY($value);
+  transform: translateY($value);
+}
+
+@mixin translateX($value) {
+  -webkit-transform: translateX($value);
+  -moz-transform: translateX($value);
+  transform: translateX($value);
+}
+
+@mixin translate($value) {
+  -webkit-transform: translate($value);
+  -moz-transform: translate($value);
+  transform: translate($value);
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+@mixin grayscale($value) {
+ -webkit-filter: grayscale($value);
+  filter: grayscale($value);
+}
+
+
+@mixin box-shadow($left, $top, $radius, $color) {
+  box-shadow: $left $top $radius $color;
+  -webkit-box-shadow: $left $top $radius $color;
+  -moz-box-shadow: $left $top $radius $color;
+}
+
+@mixin transform-none($value) {
+  -webkit-transform: $value;
+  -moz-transform: $value;
+  transform: $value;
+}
+
+@mixin column-count($value) {
+  -webkit-column-count: $value;
+   column-count: $value;
+}
+
+@mixin flex-wrap($value) {
+   -webkit-flex-wrap: $value;
+    flex-wrap: $value;
+}
+
+@mixin justify-content($value) {
+    -webkit-justify-content: $value;
+    justify-content: $value;
+}
+
+@mixin animation-name($value) {
+    -webkit-animation-name: $value;
+    -moz-animation-name: $value;
+    -o-animation-name: $value;
+    animation-name: $value;
+}
+
+@mixin animation-duration($value) {
+    -webkit-animation-duration: $value;
+    animation-duration: $value;
+}
+
+@mixin animation-fill-mode($value) {
+    -webkit-animation-fill-mode: $value;
+    animation-fill-mode: $value;
+}
+
+@mixin animation-delay($value) {
+    -webkit-animation-delay: $value;
+     animation-delay: $value;
+}
+
+@mixin align-items($value) {
+     -webkit-align-items: $value;
+      align-items: $value;
+}

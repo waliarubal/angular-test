@@ -1,0 +1,104 @@
+.login-pages-block{
+	position:relative;
+	.logon-logo{
+		text-align:center;
+		padding:25px 0 0;
+		position:absolute;
+		top:0;
+		right: 0;
+		left:0;
+		@media screen and (max-width: $custom_sm) {
+			padding:15px 0;
+			position:static;
+		}
+	}
+	.alt-login-page{
+		height: 100vh;
+		@extend %custom-flex-center;
+		@media screen and (max-width: $custom_sm) {
+			height: auto;
+			padding:20px 15px;
+			display: block;
+		}
+		.heading-box{
+			padding:0 0 40px;
+			text-align: center;
+			@media screen and (max-width: $custom_sm) {
+				padding:0 0 20px;
+			}
+			h1{
+				margin:0;
+				padding:0;
+				@media screen and (max-width: $custom_sm) {
+					font-size:($headingOne - 12px);
+				}
+			}
+			p{
+				font-size:$font16;
+				font-family:$button-font;
+				color:$text-black;
+				font-weight:$font-regular;
+				padding:20px 0 0;
+				line-height: 24px;
+				@media screen and (max-width: $custom_sm) {
+					padding:10px 0 0;
+					font-size:$font14;
+					line-height: 22px;
+				}
+			}
+		}
+		.login-form{
+			@media screen and (max-width: $custom_sm) {
+				width: 100%;
+			}
+			.login-group{
+				max-width:390px;
+				margin:0 auto;
+			}
+			.form-group{
+				margin-bottom:20px;
+				position:relative;				
+			}
+			.eye-icon{
+				position:absolute;
+				right:15px;
+				top:15px;
+				cursor:pointer;
+			}
+			.blue-btn{
+				width: 100%;
+				margin:20px 0 46px;
+				@media screen and (max-width: $custom_sm) {
+					margin:10px 0 30px;
+				}
+			}
+			.rem-block{
+				@extend %custom-flex;
+				.forgot-btn{
+					font-size:$font16;
+					font-family:$button-font;
+					color:$text-blue;
+					@media screen and (max-width: $custom_sm) {
+						font-size:$font14;
+					}
+				}
+			}
+		}
+		.sent-email{
+			.heading-box{
+				i{
+					display: block;
+					margin:0 auto 23px;
+					@media screen and (max-width: $custom_sm) {
+						width: 50px;
+						margin:30px auto 15px;
+					}
+				}
+				p{
+					max-width:430px;
+					margin:0 auto;
+				}
+			}
+		}
+	}
+}

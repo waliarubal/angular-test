@@ -1,0 +1,571 @@
+/* color variable */
+/* font variable */
+.blue-btn {
+  border: none;
+  font-family: "Raleway", sans-serif;
+  background: #69a9f2;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 20px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .blue-btn {
+    height: 48px;
+    line-height: 48px;
+  }
+}
+
+.blue-btn:hover, .blue-btn:focus {
+  background: #212121;
+  color: #fff;
+}
+
+.login-pages-block .alt-login-page .login-form .rem-block {
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.login-pages-block .alt-login-page {
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+/* color variable */
+/* font variable */
+.blue-btn {
+  border: none;
+  font-family: "Raleway", sans-serif;
+  background: #69a9f2;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 20px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .blue-btn {
+    height: 48px;
+    line-height: 48px;
+  }
+}
+
+.blue-btn:hover, .blue-btn:focus {
+  background: #212121;
+  color: #fff;
+}
+
+.login-pages-block .alt-login-page .login-form .rem-block {
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.login-pages-block .alt-login-page {
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Bold';
+  src: url("../webfonts/FoundersGrotesk-Bold.eot?#iefix") format("embedded-opentype"), url("../webfonts/FoundersGrotesk-Bold.otf") format("opentype"), url("../webfonts/FoundersGrotesk-Bold.woff") format("woff"), url("../webfonts/FoundersGrotesk-Bold.ttf") format("truetype"), url("../webfonts/FoundersGrotesk-Bold.svg#FoundersGrotesk-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Regular';
+  src: url("../webfonts/FoundersGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("../webfonts/FoundersGrotesk-Regular.otf") format("opentype"), url("../webfonts/FoundersGrotesk-Regular.woff") format("woff"), url("../webfonts/FoundersGrotesk-Regular.ttf") format("truetype"), url("../webfonts/FoundersGrotesk-Regular.svg#FoundersGrotesk-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Medium';
+  src: url("../webfonts/FoundersGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("../webfonts/FoundersGrotesk-Medium.otf") format("opentype"), url("../webfonts/FoundersGrotesk-Medium.woff") format("woff"), url("../webfonts/FoundersGrotesk-Medium.ttf") format("truetype"), url("../webfonts/FoundersGrotesk-Medium.svg#FoundersGrotesk-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #212121;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus, a, a:hover, :visited, :focus, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+p, pre {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  padding-bottom: 15px;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0;
+}
+
+ul, ol {
+  padding-left: 18px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #69a9f2;
+}
+
+a:hover, a:focus {
+  color: #69a9f2;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* global css start here SJ */
+.outer {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+  z-index: 9;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  color: #212121;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+h1, .h1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 26px;
+}
+
+h4, .h4 {
+  font-size: 22px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 14px;
+}
+
+.mr-bt-17 {
+  margin-bottom: 17px;
+}
+
+input, select, textarea {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
+
+.fontRegular {
+  font-weight: 400;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.form-control {
+  background: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #212121;
+  height: 54px;
+  padding: 0 15px;
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 1px #e6e9f3;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .form-control {
+    height: 48px;
+    font-size: 14px;
+  }
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #212121;
+}
+
+select.form-control {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 52px !important;
+}
+
+select.form-control:focus {
+  box-shadow: none;
+  border-color: none;
+}
+
+/* global css end here */
+.check-box-ds {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Raleway", sans-serif;
+  color: #212121;
+}
+
+@media screen and (max-width: 767px) {
+  .check-box-ds {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+}
+
+.check-box-ds input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: -6px;
+  left: 0;
+  height: 36px;
+  width: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: solid 1px #e6e9f3;
+}
+
+@media screen and (max-width: 767px) {
+  .checkmark {
+    height: 24px;
+    width: 24px;
+    top: -2px;
+  }
+}
+
+.check-box-ds input:checked ~ .checkmark {
+  background-color: #69a9f2;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.check-box-ds input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.check-box-ds .checkmark:after {
+  left: 13px;
+  top: 7px;
+  width: 8px;
+  height: 16px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 767px) {
+  .check-box-ds .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 6px;
+    height: 12px;
+  }
+}
+
+.floating-label {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.floating-input, .floating-select {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+}
+
+.floating-input:focus, .floating-select:focus {
+  outline: none;
+  border-bottom: 1px solid #69a9f2;
+}
+
+.floating-label label {
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top: 15px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 16px;
+  color: #212121;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  display: block;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .floating-label label {
+    font-size: 14px;
+  }
+}
+
+.floating-input:focus ~ label, .floating-input:not(:placeholder-shown) ~ label {
+  top: -6px;
+  font-size: 14px;
+}
+
+.login-pages-block {
+  position: relative;
+}
+
+.login-pages-block .logon-logo {
+  text-align: center;
+  padding: 25px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .logon-logo {
+    padding: 15px 0;
+    position: static;
+  }
+}
+
+.login-pages-block .alt-login-page {
+  height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .alt-login-page {
+    height: auto;
+    padding: 20px 15px;
+    display: block;
+  }
+}
+
+.login-pages-block .alt-login-page .heading-box {
+  padding: 0 0 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .alt-login-page .heading-box {
+    padding: 0 0 20px;
+  }
+}
+
+.login-pages-block .alt-login-page .heading-box h1 {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .alt-login-page .heading-box h1 {
+    font-size: 22px;
+  }
+}
+
+.login-pages-block .alt-login-page .heading-box p {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: #212121;
+  font-weight: 400;
+  padding: 20px 0 0;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .alt-login-page .heading-box p {
+    padding: 10px 0 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .alt-login-page .login-form {
+    width: 100%;
+  }
+}
+
+.login-pages-block .alt-login-page .login-form .login-group {
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.login-pages-block .alt-login-page .login-form .form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.login-pages-block .alt-login-page .login-form .eye-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.login-pages-block .alt-login-page .login-form .blue-btn {
+  width: 100%;
+  margin: 20px 0 46px;
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .alt-login-page .login-form .blue-btn {
+    margin: 10px 0 30px;
+  }
+}
+
+.login-pages-block .alt-login-page .login-form .rem-block .forgot-btn {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: #69a9f2;
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .alt-login-page .login-form .rem-block .forgot-btn {
+    font-size: 14px;
+  }
+}
+
+.login-pages-block .alt-login-page .sent-email .heading-box i {
+  display: block;
+  margin: 0 auto 23px;
+}
+
+@media screen and (max-width: 767px) {
+  .login-pages-block .alt-login-page .sent-email .heading-box i {
+    width: 50px;
+    margin: 30px auto 15px;
+  }
+}
+
+.login-pages-block .alt-login-page .sent-email .heading-box p {
+  max-width: 430px;
+  margin: 0 auto;
+}

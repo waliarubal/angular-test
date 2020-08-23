@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: $text-black;
+    font-family: $base-font;
+    font-size: $font14;
+    font-weight:$font-regular;
+}
+img {
+    border: none;
+    max-width: 100%;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus, a, a:hover, :visited, :focus, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+p, pre {
+    color: $text-black;
+    font-size: $font16;
+    font-weight: $font-light;
+    line-height:22px;
+    padding-bottom: 15px;
+    font-family: $base-font;
+    margin-bottom: 0;
+    letter-spacing:0;
+}
+ul, ol {
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+a {
+    color: $text-blue;
+    &:hover, &:focus {
+        color:$text-blue;
+    }
+}
+b, strong {
+    font-weight: $font-bold;
+}
+a {
+    @include transition(all .3s ease);
+}
+
+/* global css start here SJ */
+
+.outer {
+    overflow: hidden;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+}
+.relative {
+    position: relative;
+    z-index: 9;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    line-height: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    color:$text-black;
+    font-family:$base-font;
+    font-weight:$font-semibold;
+}
+h1, .h1 {
+    font-size: $headingOne;
+    margin-bottom: 10px;
+}
+h2, .h2 {
+    font-size: $headingTwo;
+}
+h3, .h3 {
+    font-size: $headingThree;
+}
+h4, .h4 {
+    font-size: $headingFour;
+}
+h5, .h5 {
+    font-size: $headingFive;
+}
+h6, .h6 {
+    font-size: $headingSix;
+}
+
+.mr-bt-17{
+    margin-bottom: 17px;
+}
+
+input, select, textarea {
+    @include border-radius(0);
+}
+
+.blue-btn {
+    @extend %blue-btn;
+}
+
+.fontRegular {
+    font-weight: $font-regular;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb30 {
+    margin-bottom: 30px; 
+}
+.form-control{
+    background:$bg-white;
+    font-family:$button-font;
+    font-size:$font16;
+    color: $text-black;
+    height: 54px;
+    padding: 0 15px;
+    width: 100%;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom: solid 1px $bg-grey-light;
+    @include border-radius(0);
+    @media screen and (max-width: $custom_sm) {
+        height: 48px;
+        font-size:$font14;
+    }
+    &:focus{
+        box-shadow:none;
+        border-color:$bg-black;
+    }
+}
+
+textarea {
+    &.inp {
+    }
+}
+select{
+    &.form-control{
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        height:52px !important;
+        &:focus{
+            box-shadow:none;
+            border-color:none; 
+        } 
+    }
+}
+.form-group {
+}
+/* global css end here */
